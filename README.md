@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jitty is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by gradient-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://jitty.com/
+Jitty is a home‑search platform that uses AI‑powered filters to help buyers find the exact home they want. Founded by three veterans frustrated with the stressful, slow, and guess‑driven home‑buying process, Jitty offers a clearer, smarter way to browse listings, compare commute times, and access detailed property information. The service provides tools for sharing favorites, organizing searches, and moving through the purchase process with transparency and control.
+
+**Areas:** Company · Real Estate · Home Buying · AI · Search · Marketplace
+
+## Jitty on APIs.io
+
+Everything profiled for Jitty is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jitty/](https://apis.io/providers/jitty/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Jitty API](https://apis.io/apis/jitty/jitty-api/) — Jitty API as documented publicly: 26 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetSitesSiteidWebhooksResponse](https://apis.io/schemas/jitty/jitty-get-sites-siteid-webhooks-response/)
+- [GetV2WorkspacesWorkspaceidorslugAuditLogsResponse](https://apis.io/schemas/jitty/jitty-get-v2-workspaces-workspaceidorslug-audit-logs-response/)
+- [PostOauthAccessTokenRequest](https://apis.io/schemas/jitty/jitty-post-oauth-access-token-request/)
+- [PostV2SitesSiteidRegisteredScriptsHostedRequest](https://apis.io/schemas/jitty/jitty-post-v2-sites-siteid-registered-scripts-hosted-request/)
+- [PostV2SitesSiteidRegisteredScriptsHostedResponse](https://apis.io/schemas/jitty/jitty-post-v2-sites-siteid-registered-scripts-hosted-response/)
+- [PostV2SitesSiteidRegisteredScriptsInlineRequest](https://apis.io/schemas/jitty/jitty-post-v2-sites-siteid-registered-scripts-inline-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Jitty Context](https://apis.io/jsonld/jitty/jitty-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Jitty API Rules](https://apis.io/rules/jitty/jitty-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jitty Authentication](https://apis.io/security/jitty/jitty-authentication/)
+- [Jitty Domain Security](https://apis.io/security/jitty/jitty-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Jitty Scopes](https://apis.io/scopes/jitty/jitty-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Jitty Rate Limits](https://apis.io/rate-limits/jitty/jitty-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://jitty.com/)
+- [Documentation](https://developers.webflow.com/)
+- [Getting started](https://developers.webflow.com/data/v2.0.0/reference/rest-introduction/quick-start)
+- [Blog](https://jitty.com/blog)
+- [Terms of service](https://uploads-ssl.webflow.com/64a29738a276228b93aec588/669e6bb8f183f79aa8fb3e63_Jitty%20-%20T%26Cs%20-%20July%202024%20(1).docx.pdf)
+- [Privacy policy](https://jitty.com/docs/PRIVACY-POLICY-0526.pdf)
+
+## API Evangelist rating
+
+**Kin Score 42.8** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 40.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jitty/](https://apis.io/providers/jitty/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jitty: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jitty/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
